@@ -93,7 +93,7 @@ apt update && apt install -y unzip curl && \
 curl -L https://raw.githubusercontent.com/ajijainalganteng-wq/TBOT/main/VPNBOT/bot.zip -o /root/bot.zip && \
 unzip -o /root/bot.zip -d /root/TBOT && \
 cd /root/TBOT && \
-chmod -R 755 .
+chmod -R 755 
 
 if [[ ! -f "bot.zip" ]]; then
     echo -e "${RED}✖ Failed to download bot package${NC}"
